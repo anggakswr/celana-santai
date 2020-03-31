@@ -1,0 +1,206 @@
+.navbar {
+	font-family: 'Noto Sans';
+	font-weight: 700;
+	background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43));
+}
+
+.jumbotron {
+	font-family: 'Noto Sans';
+	margin-top: 55px;
+	background-image: url(../img/kuning2.jpeg);
+  background-size: cover;
+	color: white;
+	position: relative;
+  background-attachment: fixed;
+}
+
+.display-4 {
+	color: orange;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+	background-color: black;
+	opacity: .5;
+  position: absolute;
+  right: 0;
+	top: 0;
+}
+
+.info .card {
+	border: none;
+	background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43));
+	box-shadow: 5px 5px 0px grey;
+	color: white;
+}
+
+.info img {
+	float: left;
+	margin-right: 15px;
+}
+
+.babydoll {
+	height: 300px;
+}
+
+.babydoll1 {
+	background-color: orange;
+	background-image: url(../img/kumpulan-celana.jpeg);
+  background-size: cover;
+	border-radius: 10px 0 0 10px;
+  opacity: 0;
+  transform: translate(-50px,0);
+  transition: 1s;
+}
+
+.babydoll1::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 70%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1),rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+	right: 0;
+	border-radius: 10px 0 0 10px;
+}
+
+.babydoll1 h3 {
+	position: absolute;
+	bottom: 50px;
+	color: white;
+	margin-left: 10px;
+	z-index: 1;
+}
+
+.babydoll1 p {
+	position: absolute;
+	bottom: 40px;
+	color: orange;
+	margin-left: 10px;
+	z-index: 1;
+}
+
+.babydoll2 {
+	background-color: yellow;
+	background-image: url(../img/babydoll-merah.jpeg);
+  background-size: cover;
+	border-radius: 0 10px 10px 0;
+  opacity: 0;
+  transform: translate(50px,0);
+  transition: 1s;
+}
+
+.babydoll2 h3 {
+	position: absolute;
+	bottom: 50px;
+	color: white;
+	margin-left: 10px;
+	z-index: 1;
+}
+
+.babydoll2 p {
+	position: absolute;
+	bottom: 40px;
+	color: orange;
+	margin-left: 10px;
+	z-index: 1;
+}
+
+.babydoll2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 70%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1),rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+	right: 0;
+	border-radius: 0 10px 10px 0;
+}
+
+.thumb {
+	box-shadow: 5px 5px 0px orange;
+	color: rgb(255, 75, 43);
+  opacity: 0;
+  transform: translate(0,-50px);
+  transition: .5s;
+}
+
+.muncul {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+.thumb:hover {
+	box-shadow: 5px 5px 0px grey;
+	color: white;
+	background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43));
+}
+
+.produk .card-text {
+	font-family: 'Noto Sans';
+	font-weight: 700;
+	color: black;
+}
+
+.kuning {
+	width: 100%;
+  filter: drop-shadow(-5px -5px 5px black);
+}
+
+.biru {
+	width: 50%;
+  filter: drop-shadow(-5px -5px 5px black);
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.ending {
+  padding: 25px;
+  background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43));
+	color: white;
+}
+
+.ending a {
+  color: white;
+}
+
+.ending a:hover {
+  text-decoration: none;
+	color: orange;
+}
+
+.chat {
+	border-radius: 16px;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	box-shadow: 0px 0px 20px grey;
+  background: linear-gradient(to left, lightgreen, white);
+	height: 60px;
+	padding: .375rem .75rem;
+	text-align: center;
+	display: inline-block;
+	color: green;
+}
+
+.chat:hover {
+	text-decoration: none;
+	color: green;
+}
+
+footer {
+  padding: 25px;
+  background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43));
+  color: white;
+}
