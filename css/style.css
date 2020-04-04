@@ -1,8 +1,12 @@
+/* ======================= Navbar ======================= */
+
 .navbar {
 	font-family: 'Noto Sans';
 	font-weight: 700;
 	background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43));
 }
+
+/* ======================= jumbotron ======================= */
 
 .jumbotron {
 	font-family: 'Noto Sans';
@@ -35,6 +39,8 @@
 	top: 0;
 }
 
+/* ======================= Info ======================= */
+
 .info .card {
 	border: none;
 	background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43));
@@ -46,6 +52,8 @@
 	float: left;
 	margin-right: 15px;
 }
+
+/* ======================= Babydoll ======================= */
 
 .babydoll {
 	height: 300px;
@@ -127,6 +135,8 @@
 	border-radius: 0 10px 10px 0;
 }
 
+/* ======================= Produk ======================= */
+
 .thumb {
 	box-shadow: 5px 5px 0px orange;
 	color: rgb(255, 75, 43);
@@ -144,12 +154,27 @@
 	box-shadow: 5px 5px 0px grey;
 	color: white;
 	background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43));
+	cursor: pointer;
 }
 
 .produk .card-text {
 	font-family: 'Noto Sans';
 	font-weight: 700;
 	color: black;
+}
+
+/* ======================= Modalbox / Lightbox ======================= */
+
+.modal-content {
+	padding: 20px;
+}
+
+.modal-content h2 {
+	padding-top: 20px;
+}
+
+.modal-content img {
+	width: inherit;
 }
 
 .kuning {
@@ -165,6 +190,8 @@
 	bottom: 0;
 }
 
+/* ======================= Info di atas Footer ======================= */
+
 .ending {
   padding: 25px;
   background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43));
@@ -179,6 +206,8 @@
   text-decoration: none;
 	color: orange;
 }
+
+/* ======================= Tombol Chat ======================= */
 
 .chat {
 	border-radius: 16px;
@@ -198,6 +227,8 @@
 	text-decoration: none;
 	color: green;
 }
+
+/* ======================= Footer ======================= */
 
 footer {
   padding: 25px;
