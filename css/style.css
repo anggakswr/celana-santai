@@ -165,16 +165,9 @@
 
 /* ======================= Modalbox / Lightbox ======================= */
 
-.modal-content {
-	padding: 20px;
-}
-
-.modal-content h2 {
-	padding-top: 20px;
-}
-
 .modal-content img {
 	width: inherit;
+	padding: 10px;
 }
 
 .kuning {
