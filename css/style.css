@@ -170,6 +170,12 @@
 	padding: 10px;
 }
 
+.modal-footer img {
+	width: 50px;
+	margin: -10px;
+	margin-right: 0px;
+}
+
 .kuning {
 	width: 100%;
   filter: drop-shadow(-5px -5px 5px black);
